@@ -1,0 +1,119 @@
+body {
+    background-image: url('../img/fondocpu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+center {
+    color: #00539C;
+}
+
+h1 {
+    color: #003366;
+    text-align: center;
+}
+
+h2 {
+    color: #00539C;
+}
+
+h3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #0077CC;
+    text-align: center;
+}
+
+a {
+    color: #00A1FF;
+}
+
+a:hover {
+    color: #008CFF;
+}
+
+input[type = "text"], input[type = "password"], input[type = "file"], input[type = "submit"], select {
+    padding: 8px;
+    margin: 5px;
+}
+
+input[type = "submit"] {
+    background-color: #00539C;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input[type = "submit"]:hover {
+    background-color: #0077CC;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th, td {
+    border: 1px solid #00539C;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #0077CC;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #E6F7FF;
+}
+
+tr:nth-child(odd) {
+    background-color: #B3E0FF;
+}
+
+#grupo {
+    margin: auto;
+    width: 30%;
+    border-style: none;
+    box-shadow: black 0px 3px 3px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.txt {
+    height: 40px;
+    width: 80%;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-image: url("../img/sesion.png");
+    background-position: left center;
+    padding-left: 50px;
+    font-family: Roboto-Black;
+    font-size: 20px;
+    border-left-style: none;
+    border-top-style: none;
+    border-right-style: none;
+}
+
+.pwd {
+    height: 40px;
+    margin-bottom: 20px;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-image: url("../img/pass.png");
+    background-position: left center;
+    padding-left: 50px;
+    font-family: Roboto-Black;
+    font-size: 20px;
+    border-left-style: none;
+    border-top-style: none;
+    border-right-style: none;
+}
+.btn {
+    height: 40px;
+    margin-bottom: 20px;
+    width: 60%;
+}
